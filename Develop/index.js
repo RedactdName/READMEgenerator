@@ -40,7 +40,7 @@ const questions = [{
 },
 {
     type: 'input',
-    name: "test",
+    name: "quiz",
     message: "How can others test your App?"
 },
 {

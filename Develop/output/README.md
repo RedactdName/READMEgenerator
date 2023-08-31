@@ -1,9 +1,9 @@
-# Some more project stuff 
+# I DID IT I DID IT!!! 
 
   <img src="https://img.shields.io/badge/license-MIT-purple.svg">
 
   ## Description
-To serve a putpose
+Proof I can do anything I want
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,17 +15,23 @@ To serve a putpose
   
 
   ## Installation
-  nah
+  Keep your head up
 
 
 ## Usage
-by clicking things
+Access node.js and answer prompts
 
 ## License
       
       This project is Licensed under MIT
 
+## Contributions
+on the github
+
+## Tests
+use it an find out
+
 ## Questions
-If you have any questions or would like to contact me, you can reach me at [blahblah@aol.com](mailto:blahblah@aol.com)
+If you have any questions or would like to contact me, you can reach me at [lazybonesdogs@email.com](mailto:lazybonesdogs@email.com)
 
 If you'd like to see more of my projects, you can check them out on my GitHub: [RedactdName](https://github.com/RedactdName)

@@ -58,6 +58,12 @@ ${data.use}
 
 ${renderLicenseSection(data.license)}
 
+## Contributions
+${data.contribute}
+
+## Tests
+${data.quiz}
+
 ## Questions
 If you have any questions or would like to contact me, you can reach me at [${data.email}](mailto:${data.email})
 
