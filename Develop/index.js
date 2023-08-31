@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 
-const { default: inquirer } = require("inquirer");
-const { default: Choices } = require("inquirer/lib/objects/choices");
+const {prompt} = require("inquirer");
+const fs = require('fs')
 
 //npm i inquirer
 console.log('Lets get started')
@@ -29,28 +29,20 @@ const questions = [{
 {
     type: 'list',
     name: "license",
-    message: "What is the License of your App?"
-    choices: ['MIT', 'ISC', 'GNUPLv3'],
-    filter (choice) {
-        return choice
-    }
+    message: "What is the License of your App?",
+    choices: ['MIT', 'ISC', 'GNUPLv3','None'],
+  
+    
 },
 ];
 writeToFile();
 // TODO: Create a function to write README file
-async function writeToFile() { 
-    return inquirer.prompt(questions);
+function writeToFile(fileName, data) {
+fs.writeFile(fileName,data)
 }
-      .then((answers)=> {
-            console.log(answers)
-        return answers    
-        })
-    .catch((error)=> {
-        console.error();
-      })   
 
 // TODO: Create a function to initialize app
-function init() { }
-
+function init() {}
+prompt()
 // Function call to initialize app
 init();
