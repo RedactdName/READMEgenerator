@@ -21,6 +21,8 @@ To generate a  README
 ## Usage
 Using it you will needs to answer all prompt questions. Upon completion of the questions a README will be generated in the output folder under README.md
 
+[![Watch the video](https://drive.google.com/file/d/1E6fA1CePl_T_NwoId7QEgZ_iQ-Suz1DO/view)
+
 ## License
       
       This project is Licensed under MIT
